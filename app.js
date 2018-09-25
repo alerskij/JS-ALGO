@@ -16,3 +16,10 @@ function writeAlgoDemo2() {
 
 
 }
+
+function writeAlgoDemo3() {
+    var radius = Math.random() * 10 + 5;
+    var square = Math.PI * radius * radius;
+    document.write("<p>Radius= " + radius + "</p>");
+    document.write("<p>Площадь круга" + square + "</p>");
+}
